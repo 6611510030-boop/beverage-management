@@ -1,0 +1,128 @@
+/* นำเข้าฟอนต์ Google Font (Sarabun) เพื่อความสวยงาม */
+@import url('https://fonts.googleapis.com/css2?family=Sarabun:wght@300;400;700&display=swap');
+
+body {
+    font-family: 'Sarabun', sans-serif;
+    background-color: #fdfaf5; /* สีขาวนวลออกครีม */
+    color: #5d4037; /* ตัวอักษรสีน้ำตาลเข้ม */
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container {
+    background: #ffffff; /* สีขาวสะอาด */
+    padding: 2.5rem;
+    border-radius: 20px;
+    box-shadow: 0 10px 30px rgba(141, 110, 99, 0.1);
+    text-align: center;
+    max-width: 800px; /* ขยายให้รองรับหน้า PDF */
+    width: 90%;
+    border: 1px solid #efebe9;
+    margin: 20px;
+}
+
+/* หัวข้อ */
+h1 { color: #8d6e63; margin-bottom: 0.5rem; }
+h2 { color: #bcaaa4; font-weight: 400; font-size: 1.2rem; }
+h3 { color: #6d4c41; margin-top: 1rem; }
+
+/* ส่วนรูปโปรไฟล์หน้าแรก */
+.profile-image img {
+    width: 200px;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 15px; /* มนเล็กน้อยตามสไตล์รูป p1.jpg */
+    border: 5px solid #efebe9;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    margin-bottom: 1.5rem;
+}
+
+.profile-card {
+    background: #fafafa;
+    padding: 1.5rem;
+    border-radius: 15px;
+    margin: 1.5rem 0;
+    border: 1px dashed #d7ccc8;
+}
+
+/* ส่วนแสดง PDF หน้าเนื้อหา */
+.pdf-container {
+    background: #efebe9;
+    padding: 10px;
+    border-radius: 15px;
+    margin: 20px 0;
+}
+
+.highlight-box {
+    background: #fdfaf5;
+    padding: 15px;
+    border-radius: 10px;
+    border-left: 5px solid #8d6e63;
+    margin-bottom: 20px;
+}
+
+/* ปุ่มกด (Button) */
+.btn, .btn-back {
+    display: inline-block;
+    padding: 12px 35px;
+    background-color: #8d6e63;
+    color: #fff !important;
+    text-decoration: none;
+    border-radius: 50px;
+    font-weight: bold;
+    transition: all 0.3s ease;
+    border: none;
+    cursor: pointer;
+}
+
+.btn:hover, .btn-back:hover {
+    background-color: #5d4037;
+    transform: translateY(-3px);
+    box-shadow: 0 5px 15px rgba(93, 64, 55, 0.4);
+}
+
+.btn-secondary { background-color: #bcaaa4; }
+
+
+/* โทนน้ำตาล-ขาว */
+body {
+    background-color: #fdfaf5;
+    color: #5d4037;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+.container {
+    background: #fff;
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.05);
+    text-align: center;
+}
+
+/* ตั้งค่ารูปภาพ p1.jpg */
+.profile-image img {
+    width: 250px; /* กำหนดขนาดความกว้าง */
+    height: auto;
+    border-radius: 15px;
+    border: 5px solid #efebe9;
+    margin-bottom: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.btn {
+    background-color: #8d6e63;
+    color: white;
+    padding: 10px 25px;
+    text-decoration: none;
+    border-radius: 25px;
+    display: inline-block;
+}
